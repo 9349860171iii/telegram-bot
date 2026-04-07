@@ -4,7 +4,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 
 # --- CONFIG ---
-BOT_TOKEN = os.getenv("8609541625:AAHxJC-r6GwmS3uhsBlf3O5yjwjXQm3jMow")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_ID = 7286525252
 
 PRODUCTS = {
